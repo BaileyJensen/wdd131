@@ -5,6 +5,11 @@
 
     nav ul {
         display: flex;
+
+    }
+
+    nav {
+        width: auto;
     }
 
     header {
@@ -16,12 +21,13 @@
 
     .navigation {
         display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
         gap: 1rem;
     }
 
-    header p {
-        justify-content: left;
-    }
+
 
     main {
         display: grid;
