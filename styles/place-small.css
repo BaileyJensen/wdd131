@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font: "Fira Sans", sans-serif;
+    --main-color: #FF4252;
+    --accent-color: #42B0FF;
+
+}
+
+body {
+    font-family: var(--font);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-bottom: var(--accent-color);
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--main-color);
+    padding: 20px;
+
+}
+
+h2 {
+    padding: 15px;
+    font-size: xx-large;
+}
+
+h3 {
+    padding: 15px;
+    font-size: xx-large;
+}
+
+.data {
+    text-align: center;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.weather {
+    text-align: center;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+p {
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--main-color);
+    text-align: center;
+}
